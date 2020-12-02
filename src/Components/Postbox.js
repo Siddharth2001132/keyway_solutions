@@ -5,7 +5,7 @@ import avatar from "../assets/avatar.png";
 
 function Postbox({user}) {
   const { register, handleSubmit, reset } = useForm();
-  const FEED_URL = "http://localhost:4000/feed/post";
+  const FEED_URL = "https://post-up-server.herokuapp.com/feed/post";
 
   const refreshPage = ()=>{
     window.location.reload();

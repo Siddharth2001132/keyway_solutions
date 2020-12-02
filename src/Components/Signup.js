@@ -10,7 +10,7 @@ function Signup(props) {
 
   const { register, handleSubmit } = useForm();
   let history = useHistory();
-  const SIGNUP_URL = "http://localhost:4000/auth/signup";
+  const SIGNUP_URL = "https://post-up-server.herokuapp.com/auth/signup";
 
   const onSubmit = (data) => {
     if (validUser(data)) {

@@ -7,7 +7,7 @@ import Posts from "./Posts";
 function Dashboard(props) {
   const [user, setUser] = useState(" ");
   const history = useHistory();
-  const API_URL = "http://localhost:4000/";
+  const API_URL = "https://post-up-server.herokuapp.com/";
 
   const signOut = () => {
     localStorage.removeItem("token");

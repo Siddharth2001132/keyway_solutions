@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Post from "./Post";
 
 function Posts(props) {
-  const POST_URL = "http://localhost:4000/feed/post";
+  const POST_URL = "https://post-up-server.herokuapp.com/feed/post";
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {

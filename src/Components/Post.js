@@ -15,8 +15,8 @@ import { useForm } from "react-hook-form";
 // import Edit from "./Edit";
 
 const Post = forwardRef(({ _id, username, title, description }, ref) => {
-  const DELETE_URL = "http://localhost:4000/feed/post";
-  const UPDATE_URL = "http://localhost:4000/feed/post/update"
+  const DELETE_URL = "https://post-up-server.herokuapp.com/feed/post";
+  const UPDATE_URL = "https://post-up-server.herokuapp.com/feed/post/update"
 
   const refreshPage = () => {
     window.location.reload();
