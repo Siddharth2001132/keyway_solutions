@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.lead {
+    justify-content: center;
+}
+
+.lead-buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.button {
+    margin: 0 0.5rem;
+}
+.container {
+    background-color: rgba(22,105,122,0.4);
+}
+
+
+.Feed {
+    border-right: 5px solid #1b262c;
+    border-left: 5px solid #1b262c;
+    border-radius: 2px;
+    height: 100%;
+}
+
+.signout_button {
+    display: flex;
+    float: right;
+}
+
+.blank-bar {
+    height: 2.35rem;
+    margin-bottom: 2rem;
+ 
+}
+
+.avatar-img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.postbox-group {
+    margin: 0 2rem;
+    background-color: rgba(87, 163, 179, 0.9);
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+/* *Post styling */
+.main-post {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1f6f8b;
+    /* margin:0rem 8rem; */
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 20rem;
+    height: 15rem;
+
+}
+
+
+.post-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+
+.post-head-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.post-username{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.post-description {
+    height: 8rem;
+    padding-top: 0,5rem;
+}
+
+.avatar-icon {
+    margin-top: 0.3rem;
+}
+.post-foot{
+    border-top: 1px solid black;
+}
+
+.post-foot-icon {
+    margin: 0 0.5rem;
+}
+
+.Like {
+    color: rgb(201, 73, 73);
+}
+
+/* *dropdowm */
+
+.rc-menu-button{
+    background-color: #1f6f8b !important;
+    border: none !important;
+    padding:0  0 !important;
+
+}
+
+.menu-button-icon {
+    color: white;
+}
+
+
+
+
